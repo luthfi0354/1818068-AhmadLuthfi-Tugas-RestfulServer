@@ -22,7 +22,7 @@ class ModelNilai extends CI_Model
         return $this->db->update('nilai', $data);
     }
 
-    public function del_mahasiswa($NIS){
+    public function del_nilai($NIS){
         return $this->db->delete('nilai', ['NIS'=>$NIS]);
     }
 }

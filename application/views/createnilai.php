@@ -17,13 +17,15 @@ echo form_open_multipart('nilai/create');
     </tr>
     <tr>
         <td>Ma_Pel</td>
-        <td><?php echo form_input('Mapel'); ?> </td>
+        <td><?php echo form_input('Ma_Pel'); ?> </td>
     </tr>
     <tr>
         <td>Nilai</td>
         <td><?php echo form_input('Nilai'); ?> </td>
     </tr>
     <tr>
+
+
         <td colspan="2"><?php echo form_submit('submit', 'Simpan'); ?>
             <?php echo anchor('nilai', 'Kembali'); ?>
         </td>

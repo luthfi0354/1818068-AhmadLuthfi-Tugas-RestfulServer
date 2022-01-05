@@ -17,7 +17,7 @@ echo form_open('nilai/edit/');
     </tr>
     <tr>
         <td>Ma_Pel</td>
-        <td><?php echo form_input('Mapel',$nilai['Ma_Pel']); ?> </td>
+        <td><?php echo form_input('Ma_Pel',$nilai['Ma_Pel']); ?> </td>
     </tr>
     <tr>
         <td>Nilai</td>
