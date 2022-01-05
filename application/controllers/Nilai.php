@@ -5,7 +5,7 @@ class Nilai extends CI_Controller
 {
     function __construct(){
         parent::__construct();
-        $this->api="http://localhost/restserver_client/api/nilai/";
+        $this->api="http://localhost/restful-client/api/nilai/";
         $this->load->library('Curl.php');
         $this->load->helper('url');
         $this->load->helper('form');
@@ -59,7 +59,7 @@ class Nilai extends CI_Controller
         }
         else{
             $NIS=$this->uri->segment(3);
-            $data['niali']=json_decode($this->curl->simple_delete($this->api.'/delete/'.$NIS),true);
+            $data['nilai']=json_decode($this->curl->simple_delete($this->api.'/delete/'.$NIS),true);
             redirect('nilai');
         }
     }
