@@ -1,4 +1,4 @@
-<a href= "http://localhost/restserver1/nilai/create">Tambah Data</a>
+<a href= "http://localhost/restserver_client/nilai/create">Tambah Data</a>
 <table border="1">
     <tr>
         <th>NIS</th>

@@ -5,7 +5,7 @@ class Nilai extends CI_Controller
 {
     function __construct(){
         parent::__construct();
-        $this->api="http://localhost/restserver1/api/nilai/";
+        $this->api="http://localhost/restserver_client/api/nilai/";
         $this->load->library('Curl.php');
         $this->load->helper('url');
         $this->load->helper('form');
